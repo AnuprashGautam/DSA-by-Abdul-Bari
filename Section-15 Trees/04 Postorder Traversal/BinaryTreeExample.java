@@ -56,13 +56,13 @@ public class BinaryTreeExample
         return root;
     }
 
-    void preOrderTraversal(Node node)
+    void postOrderTraversal(Node node)
     {
         if(node!=null)
         {
+            postOrderTraversal(node.left);
+            postOrderTraversal(node.right);
             System.out.print(node.val+" ");
-            preOrderTraversal(node.left);
-            preOrderTraversal(node.right);
         }
     }
     public static void main (String[] args)
@@ -71,7 +71,7 @@ public class BinaryTreeExample
 
         Node root = b.createBinaryTree();
 
-        System.out.println("--------------------PREORDER TRAVERSAL:---------------------");
-        b.preOrderTraversal(root);
+        System.out.println("--------------------POSTORDER TRAVERSAL:---------------------");
+        b.postOrderTraversal(root);
     }
 }
