@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "0748d48f-51f1-46b8-9c6f-1d2a68d286bc",
+      "cell_type": "markdown",
+      "source": "# This is Hello World program\n- This is my code.\n",
+      "metadata": {
+        "language": "markdown",
+        "id": "0748d48f-51f1-46b8-9c6f-1d2a68d286bc"
+      }
+    },
+    {
+      "id": "c56312e0-8dcc-4efa-b02f-46e41f380dcc",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 14,
+          "success": true
+        }
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "id": "d195de3d-febd-4126-87a0-e430d263e0b6",
+      "cell_type": "code",
+      "source": "for(int i=0; i<=10; i++)\n{\n    System.out.println(i);\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 17,
+          "success": true
+        }
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n"
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    }
+  ]
+}
