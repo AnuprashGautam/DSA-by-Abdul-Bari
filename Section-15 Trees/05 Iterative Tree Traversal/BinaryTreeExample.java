@@ -111,15 +111,14 @@ public class BinaryTreeExample
             else if(node==null)
             {
                 Node popedNode= stack.pop();
-
-                if(popedNode.val<0)
-                {
-                   System.out.print(popedNode.val*-1);
-                   node=null;
-                }
-                else{
+                
+                if(popedNode.val>=0){
                     stack.push(new Node(-popedNode.val));
                     node= popedNode.right;
+                }
+                else{
+                   System.out.print(popedNode.val*-1);
+                   node=null;
                 }
             }
         }
