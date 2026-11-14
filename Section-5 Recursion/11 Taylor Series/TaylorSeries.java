@@ -1,6 +1,6 @@
 public class TaylorSeries {
     public static double p = 1;   // product
-    public static double f = 1;   // fibonacci
+    public static double f = 1;   // factorial
     public static double temp = 1;    // temp result
 
     public static double e(int x, int n) {
